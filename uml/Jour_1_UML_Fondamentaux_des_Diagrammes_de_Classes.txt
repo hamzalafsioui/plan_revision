@@ -1,0 +1,21 @@
+Jour 1 : UML - Fondamentaux des Diagrammes de Classes
+● Objectif du jour : Comprendre qu'une classe représente un concept métier avec des
+données (attributs) et des actions (méthodes).
+● Questions Théoriques :
+1. Qu'est-ce qu'une classe dans un diagramme de classes ?
+2. Pourquoi est-il problématique d'avoir des classes sans méthodes ?
+3. Expliquer le principe de responsabilité unique.
+● Challenges Pratiques :
+1. Challenge 1 : Créer une classe Livre avec uniquement des attributs (titre,
+auteur, isbn). Puis, la critiquer.
+2. Challenge 2 : Refactoriser la classe Livre en ajoutant les méthodes
+essentielles (emprunter(), retourner(), afficherDetails()).
+3. Challenge 3 : Modéliser une classe Etudiant et une classe Cours. Placer
+correctement la méthode inscriptionAuCours() dans la classe la plus
+pertinente et justifier le choix.
+
+// ================================ Solution ========================================
+Questions Théoriques:
+1- Une classe represente un concept metier(des attributs comme des donnes et des methods comme actions)
+2- sans methodes comme ile ne fait rien et ne respecte pas la logique de oop
+3- Une classe doit avoir une seule responsabilite (une seule raison de changer)
