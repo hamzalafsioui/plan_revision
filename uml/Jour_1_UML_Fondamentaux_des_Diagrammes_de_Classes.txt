@@ -45,3 +45,23 @@ Livre
 + retourner() : void
 + afficherDetails() : void
 
+
+Challenge 3 :
+
+Etudiant
+------------------------
+- nom : String
+- prenom : String
+- numeroEtudiant : String
+------------------------
++ inscriptionAuCours(cours : Cours) : void
+
+
+Cours
+------------------------
+- code : String
+- titre : String
+- capacite : int
+------------------------
+
+=> Justifications => etudiant est acteur de l’action (student is an actor in the action)
