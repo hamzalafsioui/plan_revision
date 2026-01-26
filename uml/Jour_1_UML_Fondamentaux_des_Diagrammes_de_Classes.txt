@@ -19,3 +19,29 @@ Questions Théoriques:
 1- Une classe represente un concept metier(des attributs comme des donnes et des methods comme actions)
 2- sans methodes comme ile ne fait rien et ne respecte pas la logique de oop
 3- Une classe doit avoir une seule responsabilite (une seule raison de changer)
+
+Challenges Pratiques: 
+
+Challenge 1:
+Livre
+-------------------------
+- titre : String
+- auteur : String
+- isbn : String
+
+
+Critique: 
+La classe ne contient pas aucun Aucun comportement (actions).
+
+Challenge 2 :
+Livre
+--------------------------------
+- titre : String
+- auteur : String
+- isbn : String
+- isEmprunte : Boolean
+--------------------------------
++ emprunter() : void
++ retourner() : void
++ afficherDetails() : void
+
