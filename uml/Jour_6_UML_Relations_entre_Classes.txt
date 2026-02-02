@@ -1,0 +1,36 @@
+Objectif du jour : Différencier et utiliser correctement les relations (Association,
+Agrégation, Composition) et les cardinalités.
+● Questions Théoriques :
+1. Quelle est la différence fondamentale entre la composition et l'agrégation ?
+Donnez un exemple pour chacune.
+2. Comment lisez-vous une cardinalité (ex: 1..* des deux côtés) ?
+3. Qu'est-ce qu'une classe associative et quand l'utilise-t-on ?
+● Challenges Pratiques :
+1. Challenge 1 : Modéliser la relation entre Maison et Piece. Justifier le choix entre
+agrégation et composition.
+2. Challenge 2 : Modéliser la relation entre Etudiant et Cours. Définir les
+cardinalités (un étudiant peut suivre plusieurs cours, un cours a plusieurs
+étudiants).
+3. Challenge 3 : Le diagramme actuel montre une relation incorrecte (ex:
+composition au lieu d'association simple). Identifier l'erreur, la corriger et
+justifier la correction.
+
+
+// =========================== Solution ==========================
+
+Questions Théoriques :
+1- la composition (relation forte) La partie ne peut pas exister sans le tout (ex: Maison -> Chambre) 
+l'agrégation (relation faible) La partie peut exister independamment (ex: Equipe -> Jouer)
+
+2- une cardinalite se lit toujours du point de vue d'autre classe.
+
+3- Une classe associative est utilisee quand:  Une relation porte des informations propres et ces informations ne peuvent pas appartenir a une seule des deux classes.
+
+
+Challenges Pratiques :
+1- modelisation entre Maison et Piece: Composition, Justifications: une Piece n'existe pas sans la Maison
+2- type de relation entre Etudiant et Cours: Association (Etudiant 0..* ________ 0..* Cours) un etudiant peut suivre plusieurs cours et un cours peut avoir plusieurs etudiants
+
+3- Etudiant (Filled Square)── Cours       => COMPOSITION 
+pourquoi la relation faux: un cours ne depend pas d'un etudiant et si un etudiant supprimer, le cours ne doit pas disparaitre.
+
